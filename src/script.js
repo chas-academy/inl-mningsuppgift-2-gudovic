@@ -24,7 +24,7 @@ export function initSearch(people) { // rör ej denna rad
     }
     // 5. Om du hittar en match, skriv ut "Namn hittades!" i resultDisplay, ändra found till true
     if (found === true) {
-      resultDisplay.textContent = "Namn hittades!"}
+      resultDisplay.textContent = `Namn hittades: ${name}`}
     // 6. Om du efter loopen inte hittat något, skriv ut "Namn hittades inte." och gör found till false igen.
       else {
         resultDisplay.textContent = "Namn hittades inte.";
